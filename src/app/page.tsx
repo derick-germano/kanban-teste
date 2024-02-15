@@ -1,7 +1,11 @@
+import Column from "@/components/Column";
+
+
+
 export default function Home() {
   return (
-    <>    
-      <h1>Hello world</h1>
+    <>
+      <Column />
     </>
   );
 }
