@@ -103,6 +103,39 @@ export default function Column() {
             </Box>
           </Box>
         </Center>
+
+        {/* <SimpleGrid columns={3} spacing={1} margin={2}>
+          <Box borderRadius='15px' bg='#87CEFA'>
+            <Box margin='3vh'>
+              <DragDropContext onDragEnd={onDragEnd}>
+                <Droppable droppableId='tasks' type='list' direction='vertical'>
+                  {(provided) => (
+                    <article
+                      ref={provided.innerRef}
+                      {...provided.droppableProps}
+                    >
+                      {tasks.map((task, index) => (
+                        <Task key={task.id} task={task} index={index} />
+                      ))}
+
+                      {provided.placeholder}
+                    </article>
+                  )}
+                </Droppable>
+              </DragDropContext>
+            </Box>
+          </Box>
+          <Box borderRadius='15px' bg='#87CEFA' height='80px'>
+            <Box margin='3vh'>
+
+            </Box>
+          </Box>
+          <Box borderRadius='15px' bg='#87CEFA' height='80px'>
+            <Box >
+
+            </Box>
+          </Box>
+        </SimpleGrid> */}
       </Box>
     </>
   )
